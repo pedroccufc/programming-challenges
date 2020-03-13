@@ -1,9 +1,11 @@
 #include <iostream>
-#include <list>
+#include <cstdlib>
 
 using namespace std;
 
 int main(){
+
+	ios::sync_with_stdio(false);
 
 	// Número de casos de teste:
 	int t;
@@ -15,20 +17,10 @@ int main(){
 	// Qtd de colunas: m <= 10000
 	int m;
 
-	list<int> sondas;
-	int div_n;
-	int div_m;
-	for(int i = 0; i < t; i++){
+	while(t--){
 		cin >> n >> m;
-		div_n = (n/3);
-		div_m = (m/3);
-		sondas.push_back(div_n * div_m);
+		cout << (n/3) * (m/3) << endl;
 	}
-
-	for(list<int>::iterator it = sondas.begin(); it != sondas.end(); it++){
-		cout << *it << endl;
-	}
-
 
 	return 0;
 }

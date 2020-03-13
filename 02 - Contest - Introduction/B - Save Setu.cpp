@@ -1,9 +1,12 @@
 #include <iostream>
 #include <string>
+#include <cstdlib>
 
 using namespace std;
 
 int main(){
+
+	ios::sync_with_stdio(false);
 
 	// Número de operações: 1 <= T <= 100
 	int T;

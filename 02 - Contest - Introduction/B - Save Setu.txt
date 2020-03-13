@@ -1,0 +1,26 @@
+B - Salvar Setu
+
+Rahaduzzaman Setu, (rolo - 12) do 13º lote, CSE, Universidade de Dhaka está tremendamente doente. 
+
+Contudo, neste problema, você tem que construir um software que pode calcular as doações. Inicialmente o montante total de dinheiro é 0 e a cada instante, dois tipos de operações estarão lá.
+
+1) 'donate K' (100 <= K <= 10⁵), então você tem que adicionar K a conta.
+
+2) 'report', relate todo o dinheiro atual na conta.
+
+ENTRADA
+A primeira linha de entrada contém T (1 <= T <= 100) denotando o número de operações. Então haverá T linhas, cada uma contendo dois tipos de operações, conforme indicado. Você pode assumir que a entrada segue as restrições acima.
+
+SAÍDA
+Para cada operação de 'report', imprima o montante total de dinheiro na conta. 
+
+EXEMPLO DE ENTRADA
+4
+donate 1000
+report
+donate 500
+report
+
+EXEMPLO DE SAÍDA
+1000
+1500

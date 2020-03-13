@@ -1,0 +1,51 @@
+F - Zeros and Ones
+
+Dada uma sequência de 0 e 1 com até 1000000 caracteres de índices longos i e j, você deve responder a uma pergunta se todos os caracteres entre a posição min (i, j) e a posição max (i, j) (inclusive) são iguais. 
+
+ENTRADA
+Existem vários casos na entrada. A primeira linha de cada caso fornece uma sequência de 0 e 1. A próxima linha contém um número inteiro positivo n, fornecendo o número de consultas para este caso. As próximas n linhas contêm consultas, uma por linha. Cada consulta é dada por dois números inteiros não negativos, i e j. Para cada consulta, você deve imprimir "Sim" se todos os caracteres na sequência entre a posição min (i, j) e a posição max (i, j) forem iguais e "Não", caso contrário.
+
+SAÍDA
+Cada caso na saída deve começar com um cabeçalho como na amostra abaixo.  A entrada termina com uma sequência vazia que é uma linha que contém apenas o novo caractere de linha; essa sequência não deve ser processada. A entrada também pode estar no final do arquivo. A entrada também pode estar no final do arquivo.
+
+EXEMPLO DE ENTRADA
+0000011111
+3
+0 5
+4 2
+5 9
+01010101010101010101010101111111111111111111111111111111111110000000000000000
+5
+4 4
+25 60
+1 3
+62 76
+24 62
+1
+1
+0 0
+
+EXEMPLO DE SAÍDA
+Case 1:
+No
+Yes
+Yes
+
+Case 2:
+Yes
+Yes
+No
+Yes
+No
+
+Case 3:
+Yes
+
+
+
+
+
+
+
+
+
