@@ -1,0 +1,33 @@
+L - Apenas podar a lista
+
+Você recebe duas listas de números inteiros. Você pode remover qualquer número de elementos de qualquer uma delas. Você deve garantir que, após a remoção de alguns elementos, a lista contenha os mesmos elementos, mas não necessariamente na mesma ordem. Por exemplo, considere as duas listas a seguir
+
+LISTA #1 | 1 2 3 2 1
+LISTA #2 | 1 2 5 2 3
+
+Após remover 1 da primeira lista e 5 da segunda lista, ambas as listas conterão os mesmos elementos. Encontraremos as seguintes listas após remover dois elementos.
+
+LISTA #1 | 1 2 3 2
+LISTA #2 | 1 2 2 3
+
+Qual é o número mínimo de elementos a serem removidos para obter duas listas com os mesmos elementos?
+
+ENTRADA
+
+A primeira linha do arquivo de entrada contém um número inteiro T (T <= 100) que indica o número total de casos de teste. A descrição de cada caso de teste é fornecida abaixo:
+
+A primeira linha conterá dois números inteiros N (1 <= N <= 10000), o número do elemento na primeira lista e M (1 <= M <= 10000), o número do elemento na segunda lista. A próxima linha conterá N números inteiros representando a primeira lista, seguidos por outra linha com M elementos representando a segunda lista. Cada número inteiro na entrada é um número inteiro com sinal de 32 bits.
+
+OUTPUT
+
+Para cada caso de teste, imprima uma única linha contendo o número de elementos a serem removidos. Veja o exemplo de saída para o formato exato.
+
+EXEMPLO DE ENTRADA
+1
+5 5
+1 2 3 2 1
+1 2 5 2 3
+
+EXEMPLO DE SAÍDA
+2
+
