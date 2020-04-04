@@ -7,7 +7,8 @@ na mesma ordem. Por exemplo, considere as duas listas a seguir
 LISTA #1 | 1 2 3 2 1
 LISTA #2 | 1 2 5 2 3
 
-Após remover 1 da primeira lista e 5 da segunda lista, ambas as listas conterão os mesmos elementos. Encontraremos as seguintes listas após remover dois elementos.
+Após remover 1 da primeira lista e 5 da segunda lista, ambas as listas conterão os mesmos elementos. 
+Encontraremos as seguintes listas após remover dois elementos.
 
 LISTA #1 | 1 2 3 2
 LISTA #2 | 1 2 2 3
