@@ -1,9 +1,16 @@
 D - Histograma vertical
 
-Escreva um programa para ler quatro linhas de entrada de texto em maiúsculas (ou seja, todas as LETRAS MAIÚSCULAS) (não mais que 72 caracteres por linha) do arquivo de entrada e imprima um histograma vertical que mostre quantas vezes cada letra (mas não espaços em branco, dígitos , ou pontuação) aparece na entrada em maiúsculas. Formate sua saída exatamente como mostrado.
+Escreva um programa para ler quatro linhas de entrada de texto em maiúsculas (ou seja, todas as LETRAS MAIÚSCULAS) (não 
+mais que 72 caracteres por linha) do arquivo de entrada e imprima um histograma vertical que mostre quantas vezes cada 
+letra (mas não espaços em branco, dígitos , ou pontuação) aparece na entrada em maiúsculas. Formate sua saída exatamente 
+como mostrado.
 
-Entrada
+ENTRADA
+
 * Linhas 1..4: quatro linhas de texto em maiúsculas, não mais que 72 caracteres por linha.
 
-Resultado
-* Linhas 1 .. ??: Várias linhas com asteriscos e espaços seguidos por uma linha com o alfabeto maiúsculo separado por espaços. Não imprima espaços em branco desnecessários no final de qualquer linha. Não imprima nenhuma linha em branco à esquerda.
+SAÍDA
+
+* Linhas 1 .. ??: Várias linhas com asteriscos e espaços seguidos por uma linha com o alfabeto maiúsculo separado por 
+espaços. Não imprima espaços em branco desnecessários no final de qualquer linha. Não imprima nenhuma linha em branco 
+à esquerda.

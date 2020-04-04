@@ -1,12 +1,17 @@
 
 A - Procurando por Nessy
 
-O Loch Ness Monster é um animal misterioso e não identificado que habita Loch Ness, um grande lago de água doce perto da cidade de Inverness, no norte da Escócia. Nessie é geralmente classificado como um tipo de monstro do lago.
+O Loch Ness Monster é um animal misterioso e não identificado que habita Loch Ness, um grande lago de água doce perto 
+da cidade de Inverness, no norte da Escócia. Nessie é geralmente classificado como um tipo de monstro do lago.
 http://en.wikipedia.org/wiki/Loch_Ness_Monster
 
-Em julho de 2003, a BBC relatou uma extensa investigação do Loch Ness pela equipe da BBC, usando 600 feixes de sonar separados, e não encontrou vestígios de nenhum "monstro marinho" (ou seja, qualquer animal grande, conhecido ou desconhecido) no lago. A equipe da BBC concluiu que Nessie não existe. Agora queremos repetir o experimento.
+Em julho de 2003, a BBC relatou uma extensa investigação do Loch Ness pela equipe da BBC, usando 600 feixes de 
+sonar separados, e não encontrou vestígios de nenhum "monstro marinho" (ou seja, qualquer animal grande, conhecido 
+ou desconhecido) no lago. A equipe da BBC concluiu que Nessie não existe. Agora queremos repetir o experimento.
 
-Dada uma grade de n linhas e m colunas representando o loch, 6 <= n, m <= 10000, encontre o número mínimo s de feixes de sonar que você deve colocar no quadrado para que possamos controlar todas as posições na grade, com o seguintes codificações:
+Dada uma grade de n linhas e m colunas representando o loch, 6 <= n, m <= 10000, encontre o número mínimo s de feixes 
+de sonar que você deve colocar no quadrado para que possamos controlar todas as posições na grade, com o 
+seguintes codificações:
 
 * um sonar ocupa uma posição na grade; o feixe do sonar controla sua própria célula e as células contíguas;
 
@@ -27,10 +32,14 @@ _ _ _ _ _ _ _ _			o o o o x o o x o o o o _
 onde X representa um sonar e as células o são controladas por seus raios de sonar; a última figura nos dá uma solução.
 
 ENTRADA
-A primeira linha da entrada contém um número inteiro, t, indicando o número de casos de teste. Para cada caso de teste, há uma linha com dois números separados por espaços em branco, 6 <= n, m <= 10000, ou seja, o tamanho da grade (n linhas e m colunas).
+
+A primeira linha da entrada contém um número inteiro, t, indicando o número de casos de teste. Para cada caso de teste, 
+há uma linha com dois números separados por espaços em branco, 6 <= n, m <= 10000, ou seja, o tamanho da grade (n linhas e 
+m colunas).
 
 SAÍDA
-Para cada caso de teste, a saída deve consistir em uma linha mostrando o número mínimo de sonares que verifica as condições acima.
+Para cada caso de teste, a saída deve consistir em uma linha mostrando o número mínimo de sonares que verifica as 
+condições acima.
 
 EXEMPLO DE ENTRADA
 3
@@ -42,32 +51,6 @@ EXEMPLO DE SAÍDA
 4
 4
 12
-
-6/3 = 2
-6/3 = 2
-
-2*2 = 4
-
-7/3 = 2
-7/3 = 2
-
-2*2 = 4
-
-9/3 = 3
-13/3 = 4
-
-3*4 = 12
-
-
-
-
-
-
-
-
-
-
-
 
 
 
