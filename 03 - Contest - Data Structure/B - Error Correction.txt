@@ -1,0 +1,44 @@
+B - Correção de erro
+
+Uma matriz booleana tem a propriedade parity quando cada linha e cada coluna tem uma soma par, ou seja, contém um número par de bits que são definidos. Aqui está uma matriz 4x4 que possui a propriedade parity:
+
+1 0 1 0
+0 0 0 0
+1 1 1 1
+0 1 0 1
+
+As somas das linhas são 2, 0, 4 e 2. As somas das colunas são 2, 2, 2, 2.
+
+Seu trabalho é escrever um programa que leia em uma matriz e verifique se possui a propriedade parity. Caso contrário, seu programa deve verificar se a paridade pode ser estabelecida alterando apenas um bit. Se isso também não for possível, a matriz deve ser classificada como corrompida.
+
+ENTRADA
+
+O arquivo de entrada conterá um ou mais casos de teste. A primeira linha de cada caso de teste contém um número inteiro n (n <100), representando o tamanho da matriz. Nas próximas n linhas, haverá n números inteiros por linhas. Nenhum outro número inteiro além de '0' e '1' ocorrerá na matriz. A entrada será finalizada com um valor 0 para n.
+
+SAÍDA
+
+Para cada matriz no arquivo de entrada, imprima uma linha. Se a matriz já tiver a propriedade parity, imprima 'OK'. Se a propriedade paridade puder ser estabelecida alterando um bit, imprima 'Change bit (i, j)' onde i é a linha e j a coluna do bit a ser alterado. Caso contrário, imprima 'Corrompido'.
+
+EXEMPLO DE ENTRADA
+4
+1 0 1 0
+0 0 0 0
+1 1 1 1
+0 1 0 1
+4
+1 0 1 0
+0 0 1 0
+1 1 1 1
+0 1 0 1
+4
+1 0 1 0
+0 1 1 0
+1 1 1 1
+0 1 0 1
+0
+
+EXEMPLO DE SAÍDA
+OK
+Change bit (2, 3)
+Corrupt
+
