@@ -1,6 +1,8 @@
 K - Soma de dígitos
 
-Para um número inteiro positivo n, seja f(n) a soma dos dígitos de n quando representado na base 10. É fácil ver que a sequência dos números n, f(n), f(f(n)), f(f(f(n))), ... eventualmente se torna um número de dígito único que se repete para sempre. Deixe esse dígito único ser denotado g(n).
+Para um número inteiro positivo n, seja f(n) a soma dos dígitos de n quando representado na base 10. É fácil ver que 
+a sequência dos números n, f(n), f(f(n)), f(f(f(n))), ... eventualmente se torna um número de dígito único que se repete 
+para sempre. Deixe esse dígito único ser denotado g(n).
 
 Por exemplo, considere n = 1234567892.
 
@@ -12,9 +14,12 @@ f(f(f(n))) = 1 + 1 = 2
 Portanto, g (1234567892) = 2.
 
 ENTRADA
-Cada linha de entrada contém um único número inteiro positivo n no máximo 2.000.000.000. A entrada é finalizada por n = 0, que não deve ser processado.
+
+Cada linha de entrada contém um único número inteiro positivo n no máximo 2.000.000.000. A entrada é finalizada por 
+n = 0, que não deve ser processado.
 
 SAÍDA
+
 Para cada número inteiro, você deve gerar uma única linha contendo g(n).
 
 EXEMPLO DE ENTRADA
