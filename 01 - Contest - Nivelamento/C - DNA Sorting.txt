@@ -1,0 +1,31 @@
+C - Classificação de DNA
+
+Uma medida de `` falta de classificação '' em uma sequência é o número de pares de entradas que estão fora de ordem uma em relação à outra. Por exemplo, na sequência de letras `` DAABEC '', essa medida é 5, pois D é maior que quatro letras à sua direita e E é maior que uma letra à sua direita. Essa medida é chamada de número de inversões na sequência. A sequência `` AACEDGG '' tem apenas uma inversão (E e D) --- é quase classificada --- enquanto a sequência `` ZWQM '' tem 6 inversões (é a mais desordenada possível --- exatamente a reverso do ordenado).
+
+Você é responsável por catalogar uma sequência de seqüências de DNA (sequências contendo apenas as quatro letras A, C, G e T). No entanto, você deseja catalogá-los, não em ordem alfabética, mas em ordem de `` classificação '', de `` mais ordenada '' para `` menos ordenada ''. Todas as strings são do mesmo comprimento.
+
+ENTRADA
+A primeira linha contém dois números inteiros: um número inteiro positivo n (0 <n <= 50) fornecendo o comprimento das cadeias; e um número inteiro positivo m (0 <m <= 100) fornecendo o número de cadeias. Eles são seguidos por m linhas, cada uma contendo uma sequência de comprimento n.
+
+RESULTADO
+Saída da lista de cadeias de entrada, organizadas de `` mais classificadas '' para `` menos classificadas ''. Como duas seqüências de caracteres podem ser classificadas igualmente, as produza de acordo com a ordem original.
+
+EXEMPLO DE ENTRADA
+10 6
+AACATGAAGG
+TTTTGGCCAA
+TTTGGCCAAA
+GATCAGATTT
+CCCGGGGGGA
+ATCGATGCAT
+
+EXEMPLO DE SAÍDA
+CCCGGGGGGA
+AACATGAAGG
+GATCAGATTT
+ATCGATGCAT
+TTTTGGCCAA
+TTTGGCCAAA
+
+
+
