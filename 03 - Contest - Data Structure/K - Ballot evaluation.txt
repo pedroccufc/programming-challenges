@@ -1,0 +1,37 @@
+K - Avaliação da cédula
+
+Antes das eleições de 2009 no Parlamento Europeu, Bill e Ted pediram a seus amigos que adivinhassem o resultado da votação. Agora, os resultados foram publicados, então Bill e Ted querem verificar quem estava certo. Porém, a verificação dos resultados de seus muitos amigos levaria muito tempo e eles precisam que a avaliação seja feita por um computador. Como eles não são tão bons em programação, eles pedem ajuda.
+
+ENTRADA
+
+Os dados fornecidos por Bill e Ted têm o seguinte formato: A primeira linha consiste no número p de partidos, seguido pelo número g de suposições (com 1 <= p <= 50 e 1 <= g <= 10000). Em seguida, siga as linhas p, cada linha consistindo em um nome único de partido com comprimento <= 20 (contendo apenas as letras 'a' - 'z', 'A' - 'Z' e dígitos '0' - '9') e os valores obtidos porcentagem de votos desta parte com um dígito após o ponto decimal. Depois que as partes seguem g linhas, cada uma consistindo de um palpite. Um palpite tem o formato P_1 + P_2 + ... + P_k COMP n, onde P_1 a P_k são nomes de partidos, COMP é um dos operadores de comparação '<', '>', '<=', '>=' ou '=' e n é um número inteiro entre 0 e 100, inclusive. O nome de cada parte ocorre no máximo uma vez em cada palpite.
+
+SAÍDA
+
+Para cada palpite, resuma as porcentagens de voto das partes e compare-as com o número inteiro especificado n. Em seguida, imprima uma linha informando se o palpite estava correto. Veja a amostra de saída para detalhes.
+
+NOTA: Tenha cuidado com a comparação de valores de ponto flutuante, porque alguns valores na entrada (como 0,1) não têm uma representação exata como um número de ponto flutuante.
+
+EXEMPLO DE ENTRADA
+6 5
+
+CDU 30.7
+SPD 20.8
+Gruene 12.1
+FDP 11.0
+DIELINKE 7.5
+CSU 7.2
+FDP > 11
+CDU + SPD < 50
+SPD + CSU >= 28
+FDP + SPD + CDU <= 42
+CDU + FDP + SPD + DIELINKE = 70
+
+EXEMPLO DE SAÍDA
+Guess #1 was incorrect.
+Guess #2 was incorrect.
+Guess #3 was correct.
+Guess #4 was incorrect.
+Guess #5 was correct.
+
+
